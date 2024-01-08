@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <style>
+      body {
+        font-family: "Sora", sans-serif;
+        background-color: #e5eaf0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        margin: 0;
+      }
+
+      .square-box {
+        width: 1208px;
+        height: 777px;
+        background-color: #fafaf9;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 16px;
+      }
+
+      .card {
+        width: 336px;
+        height: 360px;
+        background-color: #ffffff;
+        border-radius: 15px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 16px;
+        position: relative;
+        box-shadow: 0px 30px 100px 0px rgba(17, 23, 41, 0.05);
+      }
+
+      .card img {
+        width: 336px;
+        height: 152px;
+        border-radius: 10px;
+      }
+
+      .design {
+        width: 60px;
+        height: 20px;
+        background-color: #e6d6fc;
+        border-radius: 18px;
+        font-size: 0.625rem;
+        color: #883ae1;
+        font-weight: bold;
+        margin-top: 16px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+
+      .card-title {
+        font-size: 1.125rem;
+        font-weight: bold;
+        margin: 8px 0;
+        padding-top: 16px;
+      }
+
+      .card-description {
+        font-size: 0.875rem;
+        color: #6c727f;
+        margin-bottom: 16px;
+        padding-bottom: 6px;
+      }
+
+      .content-divider {
+        border: 0.001rem solid #e5eaf0;
+        margin: 1rem -1rem;
+        margin-top: 0rem;
+        margin-bottom: 0rem;
+        width: calc(100% + 2rem);
+      }
+
+      .card-footer {
+        margin-top: auto;
+        color: #6c727f;
+        font-size: 0.75rem;
+        position: absolute;
+        bottom: 0;
+        left: 16px;
+        right: 16px;
+        padding: 8px 0;
+        padding-bottom: 20px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="square-box">
+      <div class="card">
+        <img
+          src="C:\Users\acer\Desktop\Test\responsive-web-starter\images\cactus_img.jpg"
+          alt="Card Image"
+        />
+        <div>
+          <div class="design"><p>Design</p></div>
+          <div class="card-title">Embracing Minimalism</div>
+          <p class="card-description">
+            Form minimalist sculptures to minimalist painting, this blog will
+            inspire you to appreciate the beauty that lies in simplicity.
+          </p>
+        </div>
+        <div class="content-divider"></div>
+        <div class="card-footer">Annie Spratt</div>
+      </div>
+    </div>
+  </body>
+</html>
